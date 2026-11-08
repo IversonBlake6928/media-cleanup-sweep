@@ -1,0 +1,12 @@
+{
+  "name": "media-cleanup-sweep",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx test/media_sweep.test.ts",
+    "start": "node --import tsx src/media_sweep.ts"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "@types/node": "^22.20.5", "tsx": "^4.19.0", "typescript": "^5.6.0" }
+}
